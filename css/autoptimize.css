@@ -1636,7 +1636,7 @@ img.tp-slider-alternative-image {
 	width: 40px;
 	height: 40px;
 	background-color: #fff;
-	background: url(../../../../../six/wp-content/plugins/revslider/public/assets/assets/loader.gif) no-repeat center center;
+	background: url(../../../../../content/loader.gif) no-repeat center center;
 	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
 	-webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
 	margin-top: -20px;
