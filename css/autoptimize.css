@@ -80,8 +80,8 @@ div.wpcf7 .placeheld {
 
 @font-face {
 	font-family: 'stm';
-	src: url(../../../uploads/stm_fonts/stm/stm.eot?vczund);
-	src: url(../../../uploads/stm_fonts/stm/stm.eot?vczund#iefix) format('embedded-opentype'), url(../../../uploads/stm_fonts/stm/stm.ttf?vczund) format('truetype'), url(../../../uploads/stm_fonts/stm/stm.woff?vczund) format('woff'), url(../../../uploads/stm_fonts/stm/stm.svg?vczund#stm) format('svg');
+	src: url(../../../fonts/stm.eot?vczund);
+	src: url(../../../fonts/stm.eot?vczund#iefix) format('embedded-opentype'), url(../../../fonts/stm.ttf?vczund) format('truetype'), url(../../../fonts/stm.woff?vczund) format('woff'), url(../../../fonts/stm.svg?vczund#stm) format('svg');
 	font-weight: normal;
 	font-style: normal
 }
@@ -50102,7 +50102,7 @@ a.addtoany_share_save img {
 	color: #fff;
 	padding-top: 61px !important;
 	padding-bottom: 80px !important;
-	background-image: url(/wp-content/uploads/karta.jpg) !important;
+	background-image: url(/content/karta.jpg) !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 	background-size: cover !important;
