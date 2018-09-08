@@ -326,363 +326,6 @@ div.wpcf7 .placeheld {
 	content: "\e900"
 }
 
-#sb_instagram {
-	width: 100%;
-	margin: 0 auto;
-	padding: 0;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box
-}
-
-#sb_instagram:after {
-	content: "";
-	display: table;
-	clear: both
-}
-
-#sb_instagram.sbi_fixed_height {
-	overflow: hidden;
-	overflow-y: auto;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box
-}
-
-#sb_instagram #sbi_images {
-	width: 100%;
-	float: left;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box
-}
-
-#sb_instagram #sbi_images .sbi_item {
-	display: -moz-inline-stack;
-	display: inline-block;
-	vertical-align: top;
-	zoom: 1;
-	*display: inline;
-	padding: inherit !important;
-	margin: 0 !important;
-	text-decoration: none;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box
-}
-
-#sb_instagram.sbi_col_1 #sbi_images .sbi_item {
-	width: 100%
-}
-
-#sb_instagram.sbi_col_2 #sbi_images .sbi_item {
-	width: 50%
-}
-
-#sb_instagram.sbi_col_3 #sbi_images .sbi_item {
-	width: 33.33%
-}
-
-#sb_instagram.sbi_col_4 #sbi_images .sbi_item {
-	width: 25%
-}
-
-#sb_instagram.sbi_col_5 #sbi_images .sbi_item {
-	width: 20%
-}
-
-#sb_instagram.sbi_col_6 #sbi_images .sbi_item {
-	width: 16.66%
-}
-
-#sb_instagram.sbi_col_7 #sbi_images .sbi_item {
-	width: 14.28%
-}
-
-#sb_instagram.sbi_col_8 #sbi_images .sbi_item {
-	width: 12.5%
-}
-
-#sb_instagram.sbi_col_9 #sbi_images .sbi_item {
-	width: 11.11%
-}
-
-#sb_instagram.sbi_col_10 #sbi_images .sbi_item {
-	width: 10%
-}
-
-#sb_instagram.sbi_col_1.sbi_disable_mobile #sbi_images .sbi_item {
-	width: 100%
-}
-
-#sb_instagram.sbi_col_2.sbi_disable_mobile #sbi_images .sbi_item {
-	width: 50%
-}
-
-#sb_instagram.sbi_col_3.sbi_disable_mobile #sbi_images .sbi_item {
-	width: 33.33%
-}
-
-#sb_instagram.sbi_col_4.sbi_disable_mobile #sbi_images .sbi_item {
-	width: 25%
-}
-
-#sb_instagram.sbi_col_5.sbi_disable_mobile #sbi_images .sbi_item {
-	width: 20%
-}
-
-#sb_instagram.sbi_col_6.sbi_disable_mobile #sbi_images .sbi_item {
-	width: 16.66%
-}
-
-#sb_instagram.sbi_col_7.sbi_disable_mobile #sbi_images .sbi_item {
-	width: 14.28%
-}
-
-#sb_instagram.sbi_col_8.sbi_disable_mobile #sbi_images .sbi_item {
-	width: 12.5%
-}
-
-#sb_instagram.sbi_col_9.sbi_disable_mobile #sbi_images .sbi_item {
-	width: 11.11%
-}
-
-#sb_instagram.sbi_col_10.sbi_disable_mobile #sbi_images .sbi_item {
-	width: 10%
-}
-
-#sb_instagram .sbi_photo_wrap {
-	position: relative
-}
-
-#sb_instagram .sbi_photo {
-	display: block;
-	text-decoration: none
-}
-
-#sb_instagram a, #sb_instagram a:hover, #sb_instagram a:focus, #sb_instagram a:active {
-	outline: 0
-}
-
-#sb_instagram img {
-	display: block;
-	padding: 0 !important;
-	margin: 0 !important;
-	max-width: 100% !important;
-	opacity: 1 !important
-}
-
-#sb_instagram .sbi_link {
-	display: none;
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	width: 100%;
-	padding: 10px 0;
-	background: rgba(0, 0, 0, 0.5);
-	text-align: center;
-	color: #fff;
-	font-size: 12px;
-	line-height: 1.1
-}
-
-#sb_instagram .sbi_link a {
-	padding: 0 6px;
-	text-decoration: none;
-	color: #fff;
-	font-size: 12px;
-	line-height: 1.1;
-	display: -moz-inline-stack;
-	display: inline-block;
-	vertical-align: top;
-	zoom: 1;
-	*display: inline;
-}
-
-#sb_instagram .sbi_link .sbi_lightbox_link {
-	padding-bottom: 5px
-}
-
-#sb_instagram .sbi_link a:hover, #sb_instagram .sbi_link a:focus {
-	text-decoration: underline
-}
-
-#sb_instagram .sbi_photo_wrap:hover .sbi_link, #sb_instagram .sbi_photo_wrap:focus .sbi_link {
-	display: block
-}
-
-#sb_instagram .sbi_loader {
-	position: relative;
-	left: 50%;
-	width: 16px;
-	height: 16px;
-	margin: 10px 0 10px -8px;
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/instagram-feed/css/../img/loader.png) no-repeat
-}
-
-#sb_instagram .sb_instagram_header {
-	float: left;
-	clear: both;
-	margin: 0 0 15px 0;
-	padding: 0;
-	line-height: 1.2;
-	width: 100%
-}
-
-#sb_instagram .sb_instagram_header a {
-	float: left;
-	display: block;
-	min-width: 100%\9
-}
-
-#sb_instagram .sbi_header_img {
-	float: left;
-	position: relative;
-	width: 50px;
-	margin: 0 0 0 -100% !important;
-	overflow: hidden;
-	-moz-border-radius: 40px;
-	-webkit-border-radius: 40px;
-	border-radius: 40px
-}
-
-#sb_instagram .sbi_header_img img {
-	float: left;
-	margin: 0 !important;
-	padding: 0 !important;
-	border: 0 !important
-}
-
-#sb_instagram .sbi_header_img_hover {
-	position: absolute;
-	width: 100%;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	text-align: center;
-	color: #fff;
-	background: rgba(0, 0, 0, 0.75);
-	-ms-filter: "alpha(opacity=0)";
-	filter: alpha(opacity=0);
-	-moz-opacity: 0;
-	-khtml-opacity: 0;
-	opacity: 0;
-	border-radius: 40px;
-	transition: opacity .2s
-}
-
-#sb_instagram .sb_instagram_header a:hover .sbi_header_img_hover, #sb_instagram .sb_instagram_header a:focus .sbi_header_img_hover {
-	opacity: 1
-}
-
-#sb_instagram .sbi_header_img_hover .fa {
-	position: absolute;
-	top: 50%;
-	margin-top: -10px;
-	margin-left: -8px;
-	font-size: 20px
-}
-
-#sb_instagram .sbi_header_text {
-	float: left;
-	width: 100%;
-	padding-top: 5px
-}
-
-#sb_instagram .sb_instagram_header a {
-	text-decoration: none
-}
-
-#sb_instagram .sbi_header_text .sbi_bio, #sb_instagram .sbi_header_text h3 {
-	float: left;
-	clear: both;
-	width: auto;
-	margin: 0 0 0 60px !important;
-	padding: 0 !important
-}
-
-#sb_instagram .sb_instagram_header h3 {
-	font-size: 16px;
-	line-height: 1.3
-}
-
-#sb_instagram .sb_instagram_header p {
-	font-size: 13px;
-	line-height: 1.3
-}
-
-#sb_instagram .sb_instagram_header h3.sbi_no_bio {
-	padding-top: 9px !important
-}
-
-#sb_instagram .sbi_header_text img.emoji {
-	margin-right: 3px !important
-}
-
-#sb_instagram #sbi_load {
-	float: left;
-	clear: both;
-	width: 100%;
-	text-align: center
-}
-
-#sb_instagram #sbi_load .sbi_load_btn, #sb_instagram .sbi_follow_btn a {
-	display: -moz-inline-stack;
-	display: inline-block;
-	vertical-align: top;
-	zoom: 1;
-	*display: inline;
-	padding: 7px 14px;
-	margin: 5px auto 0 auto;
-	background: #333;
-	color: #eee;
-	border: 0;
-	color: #fff;
-	text-decoration: none;
-	font-size: 13px;
-	line-height: 1.5;
-	-moz-border-radius: 4px;
-	-webkit-border-radius: 4px;
-	border-radius: 4px;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box
-}
-
-#sb_instagram .sbi_follow_btn {
-	display: -moz-inline-stack;
-	display: inline-block;
-	vertical-align: top;
-	zoom: 1;
-	*display: inline;
-	text-align: center
-}
-
-#sb_instagram .sbi_follow_btn.sbi_top {
-	display: block;
-	margin-bottom: 5px
-}
-
-#sb_instagram .sbi_follow_btn a {
-	background: #517fa4;
-	color: #fff
-}
-
-#sb_instagram .sbi_follow_btn a:hover, #sb_instagram .sbi_follow_btn a:focus, #sb_instagram #sbi_load .sbi_load_btn:hover, #sb_instagram #sbi_load .sbi_load_btn:focus {
-	filter: alpha(opacity=85);
-	opacity: .85
-}
-
-#sb_instagram #sbi_load .fa, #sb_instagram .sbi_follow_btn .fa {
-	margin-bottom: -1px;
-	margin-right: 7px;
-	font-size: 15px
-}
-
-#sb_instagram #sbi_load .sbi_follow_btn {
-	margin-left: 5px
-}
-
 #sbi_mod_error {
 	display: none
 }
@@ -719,31 +362,8 @@ div.wpcf7 .placeheld {
 	font-size: 12px
 }
 
-@media all and (max-width:640px) {
-	#sb_instagram.sbi_col_3 #sbi_images .sbi_item, #sb_instagram.sbi_col_4 #sbi_images .sbi_item, #sb_instagram.sbi_col_5 #sbi_images .sbi_item, #sb_instagram.sbi_col_6 #sbi_images .sbi_item {
-		width: 50%
-	}
-	#sb_instagram.sbi_col_7 #sbi_images .sbi_item, #sb_instagram.sbi_col_8 #sbi_images .sbi_item, #sb_instagram.sbi_col_9 #sbi_images .sbi_item, #sb_instagram.sbi_col_10 #sbi_images .sbi_item {
-		width: 25%
-	}
-}
-
-@media all and (max-width:480px) {
-	#sb_instagram.sbi_col_3 #sbi_images .sbi_item, #sb_instagram.sbi_col_4 #sbi_images .sbi_item, #sb_instagram.sbi_col_5 #sbi_images .sbi_item, #sb_instagram.sbi_col_6 #sbi_images .sbi_item, #sb_instagram.sbi_col_7 #sbi_images .sbi_item, #sb_instagram.sbi_col_8 #sbi_images .sbi_item, #sb_instagram.sbi_col_9 #sbi_images .sbi_item, #sb_instagram.sbi_col_10 #sbi_images .sbi_item {
-		width: 100%
-	}
-}
-
 .rtl {
 	direction: rtl
-}
-
-@font-face {
-	font-family: 'revicons';
-	src: url(//consulting.stylemixthemes.com/six/wp-content/plugins/revslider/public/assets/css/../fonts/revicons/revicons.eot?5510888);
-	src: url(//consulting.stylemixthemes.com/six/wp-content/plugins/revslider/public/assets/css/../fonts/revicons/revicons.eot?5510888#iefix) format('embedded-opentype'), url(//consulting.stylemixthemes.com/six/wp-content/plugins/revslider/public/assets/css/../fonts/revicons/revicons.woff?5510888) format('woff'), url(//consulting.stylemixthemes.com/six/wp-content/plugins/revslider/public/assets/css/../fonts/revicons/revicons.ttf?5510888) format('truetype'), url(//consulting.stylemixthemes.com/six/wp-content/plugins/revslider/public/assets/css/../fonts/revicons/revicons.svg?5510888#revicons) format('svg');
-	font-weight: normal;
-	font-style: normal
 }
 
 [class^="revicon-"]:before, [class*=" revicon-"]:before {
@@ -1027,14 +647,6 @@ div.wpcf7 .placeheld {
 	height: 100%;
 	position: relative;
 	vertical-align: top
-}
-
-.tp-carousel-wrapper {
-	cursor: url(//consulting.stylemixthemes.com/six/wp-content/plugins/revslider/public/assets/css/openhand.cur), move
-}
-
-.tp-carousel-wrapper.dragged {
-	cursor: url(//consulting.stylemixthemes.com/six/wp-content/plugins/revslider/public/assets/css/closedhand.cur), move
 }
 
 .tp-caption {
@@ -1410,22 +1022,6 @@ img.tp-slider-alternative-image {
 	top: 0;
 	left: 0;
 	z-index: 3
-}
-
-.tp-dottedoverlay.twoxtwo {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/revslider/public/assets/css/../assets/gridtile.png)
-}
-
-.tp-dottedoverlay.twoxtwowhite {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/revslider/public/assets/css/../assets/gridtile_white.png)
-}
-
-.tp-dottedoverlay.threexthree {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/revslider/public/assets/css/../assets/gridtile_3x3.png)
-}
-
-.tp-dottedoverlay.threexthreewhite {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/revslider/public/assets/css/../assets/gridtile_3x3_white.png)
 }
 
 .tp-shadowcover {
@@ -1968,16 +1564,6 @@ img.tp-slider-alternative-image {
 	zoom: 1
 }
 
-.caption.slidelink a div, .tp-caption.slidelink a div {
-	width: 3000px;
-	height: 1500px;
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/revslider/public/assets/css/../assets/coloredbg.png) repeat
-}
-
-.tp-caption.slidelink a span {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/revslider/public/assets/css/../assets/coloredbg.png) repeat
-}
-
 .tp-shape {
 	width: 100%;
 	height: 100%
@@ -2078,7 +1664,6 @@ img.tp-slider-alternative-image {
 }
 
 .tp-loader.spinner5 {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/revslider/public/assets/css/../assets/loader.gif) no-repeat 10px 10px;
 	background-color: #fff;
 	margin: -22px -22px;
 	width: 44px;
@@ -2803,22 +2388,6 @@ body.rtl .tp-kbimg {
 	}
 }
 
-@font-face {
-	font-family: star;
-	src: url(//consulting.stylemixthemes.com/six/wp-content/plugins/woocommerce/assets/css/../fonts/star.eot);
-	src: url(//consulting.stylemixthemes.com/six/wp-content/plugins/woocommerce/assets/css/../fonts/star.eot?#iefix) format("embedded-opentype"), url(//consulting.stylemixthemes.com/six/wp-content/plugins/woocommerce/assets/css/../fonts/star.woff) format("woff"), url(//consulting.stylemixthemes.com/six/wp-content/plugins/woocommerce/assets/css/../fonts/star.ttf) format("truetype"), url(//consulting.stylemixthemes.com/six/wp-content/plugins/woocommerce/assets/css/../fonts/star.svg#star) format("svg");
-	font-weight: 400;
-	font-style: normal
-}
-
-@font-face {
-	font-family: WooCommerce;
-	src: url(//consulting.stylemixthemes.com/six/wp-content/plugins/woocommerce/assets/css/../fonts/WooCommerce.eot);
-	src: url(//consulting.stylemixthemes.com/six/wp-content/plugins/woocommerce/assets/css/../fonts/WooCommerce.eot?#iefix) format("embedded-opentype"), url(//consulting.stylemixthemes.com/six/wp-content/plugins/woocommerce/assets/css/../fonts/WooCommerce.woff) format("woff"), url(//consulting.stylemixthemes.com/six/wp-content/plugins/woocommerce/assets/css/../fonts/WooCommerce.ttf) format("truetype"), url(//consulting.stylemixthemes.com/six/wp-content/plugins/woocommerce/assets/css/../fonts/WooCommerce.svg#WooCommerce) format("svg");
-	font-weight: 400;
-	font-style: normal
-}
-
 p.demo_store {
 	position: fixed;
 	top: 0;
@@ -2860,7 +2429,6 @@ p.demo_store a {
 	-webkit-animation: spin 1s ease-in-out infinite;
 	-moz-animation: spin 1s ease-in-out infinite;
 	animation: spin 1s ease-in-out infinite;
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/woocommerce/assets/css/../images/icons/loader.svg) center center;
 	background-size: cover;
 	line-height: 1;
 	text-align: center;
@@ -3810,7 +3378,7 @@ p.demo_store a {
 
 .woocommerce td.product-name dl.variation dd, .woocommerce td.product-name dl.variation dt {
 	display: inline-block;
-	float: left;
+	/* float: left; */
 	margin-bottom: 1em
 }
 
@@ -3884,7 +3452,7 @@ p.demo_store a {
 
 .woocommerce ul.cart_list li dl dd, .woocommerce ul.cart_list li dl dt, .woocommerce ul.product_list_widget li dl dd, .woocommerce ul.product_list_widget li dl dt {
 	display: inline-block;
-	float: left;
+	/* float: left; */
 	margin-bottom: 1em
 }
 
@@ -4389,177 +3957,6 @@ p.demo_store a {
 	margin-top: 0
 }
 
-#add_payment_method .checkout .col-2 h3#ship-to-different-address, .woocommerce-checkout .checkout .col-2 h3#ship-to-different-address {
-	float: left;
-	clear: none
-}
-
-#add_payment_method .checkout .col-2 .form-row-first, #add_payment_method .checkout .col-2 .notes, .woocommerce-checkout .checkout .col-2 .form-row-first, .woocommerce-checkout .checkout .col-2 .notes {
-	clear: left
-}
-
-#add_payment_method .checkout .create-account small, .woocommerce-checkout .checkout .create-account small {
-	font-size: 11px;
-	color: #777;
-	font-weight: 400
-}
-
-#add_payment_method .checkout div.shipping-address, .woocommerce-checkout .checkout div.shipping-address {
-	padding: 0;
-	clear: left;
-	width: 100%
-}
-
-#add_payment_method #payment ul.payment_methods li:after, #add_payment_method #payment ul.payment_methods:after, #add_payment_method .checkout .shipping_address, .single-product .twentythirteen p.stars, .woocommerce-checkout #payment ul.payment_methods li:after, .woocommerce-checkout #payment ul.payment_methods:after, .woocommerce-checkout .checkout .shipping_address {
-	clear: both
-}
-
-#add_payment_method #payment, .woocommerce-checkout #payment {
-	background: #ebe9eb;
-	border-radius: 5px
-}
-
-#add_payment_method #payment ul.payment_methods, .woocommerce-checkout #payment ul.payment_methods {
-	text-align: left;
-	padding: 1em;
-	border-bottom: 1px solid #d3ced2;
-	margin: 0;
-	list-style: none
-}
-
-#add_payment_method #payment ul.payment_methods li, .woocommerce-checkout #payment ul.payment_methods li {
-	line-height: 2;
-	text-align: left;
-	margin: 0;
-	font-weight: 400
-}
-
-#add_payment_method #payment ul.payment_methods li input, .woocommerce-checkout #payment ul.payment_methods li input {
-	margin: 0 1em 0 0
-}
-
-#add_payment_method #payment ul.payment_methods li img, .woocommerce-checkout #payment ul.payment_methods li img {
-	vertical-align: middle;
-	margin: -2px 0 0 .5em;
-	padding: 0;
-	position: relative;
-	box-shadow: none
-}
-
-#add_payment_method #payment ul.payment_methods li img+img, .woocommerce-checkout #payment ul.payment_methods li img+img {
-	margin-left: 2px
-}
-
-#add_payment_method #payment div.form-row, .woocommerce-checkout #payment div.form-row {
-	padding: 1em
-}
-
-#add_payment_method #payment div.payment_box, .woocommerce-checkout #payment div.payment_box {
-	position: relative;
-	box-sizing: border-box;
-	width: 100%;
-	padding: 1em;
-	margin: 1em 0;
-	font-size: .92em;
-	border-radius: 2px;
-	line-height: 1.5;
-	background-color: #dfdcde;
-	color: #515151
-}
-
-#add_payment_method #payment div.payment_box input.input-text, #add_payment_method #payment div.payment_box textarea, .woocommerce-checkout #payment div.payment_box input.input-text, .woocommerce-checkout #payment div.payment_box textarea {
-	border-color: #bbb3b9 #c7c1c6 #c7c1c6
-}
-
-#add_payment_method #payment div.payment_box ::-webkit-input-placeholder, .woocommerce-checkout #payment div.payment_box ::-webkit-input-placeholder {
-	color: #bbb3b9
-}
-
-#add_payment_method #payment div.payment_box :-moz-placeholder, .woocommerce-checkout #payment div.payment_box :-moz-placeholder {
-	color: #bbb3b9
-}
-
-#add_payment_method #payment div.payment_box :-ms-input-placeholder, .woocommerce-checkout #payment div.payment_box :-ms-input-placeholder {
-	color: #bbb3b9
-}
-
-#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc, #add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry, #add_payment_method #payment div.payment_box .wc-credit-card-form-card-number, .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc, .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry, .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number {
-	font-size: 1.5em;
-	padding: 8px;
-	background-repeat: no-repeat;
-	background-position: right
-}
-
-#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.visa, #add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.visa, #add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.visa, .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.visa, .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.visa, .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.visa {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/woocommerce/assets/css/../images/icons/credit-cards/visa.png)
-}
-
-#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.mastercard, #add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.mastercard, #add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.mastercard, .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.mastercard, .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.mastercard, .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.mastercard {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/woocommerce/assets/css/../images/icons/credit-cards/mastercard.png)
-}
-
-#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.laser, #add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.laser, #add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.laser, .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.laser, .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.laser, .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.laser {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/woocommerce/assets/css/../images/icons/credit-cards/laser.png)
-}
-
-#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.dinersclub, #add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.dinersclub, #add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.dinersclub, .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.dinersclub, .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.dinersclub, .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.dinersclub {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/woocommerce/assets/css/../images/icons/credit-cards/diners.png)
-}
-
-#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.maestro, #add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.maestro, #add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.maestro, .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.maestro, .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.maestro, .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.maestro {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/woocommerce/assets/css/../images/icons/credit-cards/maestro.png)
-}
-
-#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.jcb, #add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.jcb, #add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.jcb, .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.jcb, .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.jcb, .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.jcb {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/woocommerce/assets/css/../images/icons/credit-cards/jcb.png)
-}
-
-#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.amex, #add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.amex, #add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.amex, .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.amex, .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.amex, .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.amex {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/woocommerce/assets/css/../images/icons/credit-cards/amex.png)
-}
-
-#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.discover, #add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.discover, #add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.discover, .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.discover, .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.discover, .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.discover {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/woocommerce/assets/css/../images/icons/credit-cards/discover.png)
-}
-
-#add_payment_method #payment div.payment_box span.help, .woocommerce-checkout #payment div.payment_box span.help {
-	font-size: .857em;
-	color: #777;
-	font-weight: 400
-}
-
-#add_payment_method #payment div.payment_box .form-row, .woocommerce-checkout #payment div.payment_box .form-row {
-	margin: 0 0 1em
-}
-
-#add_payment_method #payment div.payment_box p:last-child, .woocommerce-checkout #payment div.payment_box p:last-child {
-	margin-bottom: 0
-}
-
-#add_payment_method #payment div.payment_box:before, .woocommerce-checkout #payment div.payment_box:before {
-	content: "";
-	display: block;
-	border: 1em solid #dfdcde;
-	border-right-color: transparent;
-	border-left-color: transparent;
-	border-top-color: transparent;
-	position: absolute;
-	top: -.75em;
-	left: 0;
-	margin: -1em 0 0 2em
-}
-
-#add_payment_method #payment .payment_method_paypal .about_paypal, .woocommerce-checkout #payment .payment_method_paypal .about_paypal {
-	float: right;
-	line-height: 52px;
-	font-size: .83em
-}
-
-#add_payment_method #payment .payment_method_paypal img, .woocommerce-checkout #payment .payment_method_paypal img {
-	max-height: 52px;
-	vertical-align: middle
-}
-
 .woocommerce-password-strength {
 	text-align: center;
 	font-weight: 600;
@@ -4887,12 +4284,6 @@ td, th {
 	.table-bordered th, .table-bordered td {
 		border: 1px solid #ddd !important
 	}
-}
-
-@font-face {
-	font-family: 'Glyphicons Halflings';
-	src: url(//consulting.stylemixthemes.com/six/wp-content/themes/consulting/assets/css/../fonts/glyphicons-halflings-regular.eot);
-	src: url(//consulting.stylemixthemes.com/six/wp-content/themes/consulting/assets/css/../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(//consulting.stylemixthemes.com/six/wp-content/themes/consulting/assets/css/../fonts/glyphicons-halflings-regular.woff2) format('woff2'), url(//consulting.stylemixthemes.com/six/wp-content/themes/consulting/assets/css/../fonts/glyphicons-halflings-regular.woff) format('woff'), url(//consulting.stylemixthemes.com/six/wp-content/themes/consulting/assets/css/../fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(//consulting.stylemixthemes.com/six/wp-content/themes/consulting/assets/css/../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
 }
 
 .glyphicon {
@@ -11437,14 +10828,6 @@ button.close {
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 
-@font-face {
-	font-family: 'FontAwesome';
-	src: url(//consulting.stylemixthemes.com/six/wp-content/themes/consulting/assets/css/../fonts/fontawesome-webfont.eot?v=4.5.0);
-	src: url(//consulting.stylemixthemes.com/six/wp-content/themes/consulting/assets/css/../fonts/fontawesome-webfont.eot?#iefix&v=4.5.0) format('embedded-opentype'), url(//consulting.stylemixthemes.com/six/wp-content/themes/consulting/assets/css/../fonts/fontawesome-webfont.woff2?v=4.5.0) format('woff2'), url(//consulting.stylemixthemes.com/six/wp-content/themes/consulting/assets/css/../fonts/fontawesome-webfont.woff?v=4.5.0) format('woff'), url(//consulting.stylemixthemes.com/six/wp-content/themes/consulting/assets/css/../fonts/fontawesome-webfont.ttf?v=4.5.0) format('truetype'), url(//consulting.stylemixthemes.com/six/wp-content/themes/consulting/assets/css/../fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular) format('svg');
-	font-weight: normal;
-	font-style: normal
-}
-
 .fa {
 	display: inline-block;
 	font: normal normal normal 14px/1 FontAwesome;
@@ -14065,11 +13448,11 @@ Theme Name: Consulting
 Theme URI: http://consulting.stylemixthemes.com/
 Author: StylemixThemes
 Author URI: http://stylemixthemes.com/
-Description: Consulting - Business and Finance WordPress theme. Using Consluting you can easily create a modern website with real content. Easily edit the real content and compose the page layout with drag & drop page builder Consulting is the best ever finance, consulting, brokerage WordPress theme. It�s fully Responsive and Easy to Customize using intuitive Drag & Drop Visual Composer and Theme Options panel in WordPress Customizer.
+Description: Business and Finance WordPress theme. Using Consluting you can easily create a modern website with real content. Easily edit the real content and compose the page layout with drag & drop page builder Consulting is the best ever finance, consulting, brokerage WordPress theme. It�s fully Responsive and Easy to Customize using intuitive Drag & Drop Visual Composer and Theme Options panel in WordPress Customizer.
 Version: 2.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: consulting
+Text Domain: 
 Tags: blue, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, fixed-layout, fluid-layout, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, sticky-post, translation-ready
 
 This theme, like WordPress, is licensed under the GPL.
@@ -14444,7 +13827,6 @@ body {
 }
 
 body.error404 {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/themes/consulting/assets/css/layout_7/../../images/page_404.jpg) no-repeat 50% 0 !important;
 	background-size: cover !important
 }
 
@@ -14463,30 +13845,6 @@ body.boxed_layout {
 }
 
 body.boxed_layout.boxed_bg_image_pattern {
-	background-attachment: fixed;
-	background-repeat: repeat;
-	background-position: 50% 50%;
-	background-size: auto
-}
-
-body.boxed_layout.bg_img_1 {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/themes/consulting/assets/css/layout_7/../../images/bg/img_1.jpg)
-}
-
-body.boxed_layout.bg_img_2 {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/themes/consulting/assets/css/layout_7/../../images/bg/img_2.jpg)
-}
-
-body.boxed_layout.bg_img_3 {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/themes/consulting/assets/css/layout_7/../../images/bg/img_3.png);
-	background-attachment: fixed;
-	background-repeat: repeat;
-	background-position: 50% 50%;
-	background-size: auto
-}
-
-body.boxed_layout.bg_img_4 {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/themes/consulting/assets/css/layout_7/../../images/bg/img_4.png);
 	background-attachment: fixed;
 	background-repeat: repeat;
 	background-position: 50% 50%;
@@ -16174,7 +15532,6 @@ body .vc_call_to_action hgroup h2:before, body .vc_call_to_action h4:before {
 
 body .vc_call_to_action {
 	background-color: #142440;
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/themes/consulting/assets/css/layout_7/../../images/stroke.png);
 	background-repeat: repeat;
 	border: 0;
 	padding: 16px 30px 15px 55px
@@ -16189,7 +15546,6 @@ body .vc_call_to_action.stretch {
 
 @media all and (-webkit-min-device-pixel-ratio:1.5) {
 	body .vc_call_to_action {
-		background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/themes/consulting/assets/css/layout_7/../../images/stroke@2x.png);
 		background-size: 8px 8px
 	}
 }
@@ -16256,7 +15612,6 @@ body .wpb_image_grid .wpb_image_grid_ul {
 }
 
 body .vc_separator.type_2 {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/themes/consulting/assets/css/layout_7/../../images/pattern_3.png) repeat-x 0 0;
 	background-size: 8px 5px;
 	height: 5px
 }
@@ -16300,7 +15655,6 @@ body .vc_separator.type_2 {
 
 .vc_grid-item.services .vc_grid-item-mini {
 	padding-bottom: 45px;
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/themes/consulting/assets/css/layout_7/../../images/pattern_3.png) repeat-x -5px 100%
 }
 
 .post_grid_no_pattern .vc_grid-item.services .vc_grid-item-mini, .post_grid_no_pattern {
@@ -17738,10 +17092,6 @@ body .vc_col-has-fill>.vc_column-inner, body .vc_row-has-fill+.vc_row-full-width
 	right: -3px
 }
 
-.stm_testimonials.style_2 .item .testimonial:after {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/themes/consulting/assets/css/layout_7/../../images/testimonials_before_2.png)
-}
-
 .stm_testimonials .item {
 	font-size: 14px;
 	display: inline-block;
@@ -17785,7 +17135,6 @@ body .vc_col-has-fill>.vc_column-inner, body .vc_row-has-fill+.vc_row-full-width
 	bottom: -33px;
 	width: 30px;
 	height: 33px;
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/themes/consulting/assets/css/layout_7/../../images/testimonials_before.png) no-repeat 0 0;
 	background-size: 15px 18px
 }
 
@@ -18113,7 +17462,6 @@ body .vc_col-has-fill>.vc_column-inner, body .vc_row-has-fill+.vc_row-full-width
 
 .posts_grid>ul>li .post_info {
 	padding: 0 0 46px;
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/themes/consulting/assets/css/layout_7/../../images/pattern_3.png) repeat-x -5px 100%;
 	background-size: 8px 5px
 }
 
@@ -18229,7 +17577,6 @@ body .vc_col-has-fill>.vc_column-inner, body .vc_row-has-fill+.vc_row-full-width
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/themes/consulting/assets/css/layout_7/../../images/pattern_4.png) no-repeat 0 0
 }
 
 .project_info .project_info_wr:after {
@@ -18239,7 +17586,6 @@ body .vc_col-has-fill>.vc_column-inner, body .vc_row-has-fill+.vc_row-full-width
 	bottom: 0;
 	width: 100%;
 	height: 100%;
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/themes/consulting/assets/css/layout_7/../../images/pattern_4.png) no-repeat 100% 100%
 }
 
 .project_info .project_info_wr table {
@@ -18344,7 +17690,6 @@ body .vc_col-has-fill>.vc_column-inner, body .vc_row-has-fill+.vc_row-full-width
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: #fff url(http://cdn.consulting.stylemixthemes.com/six/wp-content/themes/consulting/assets/css/layout_7/../../images/preloader.gif) no-repeat 50% 50%
 }
 
 .project_grid_filter {
@@ -18898,309 +18243,6 @@ body .vc_col-has-fill>.vc_column-inner, body .vc_row-has-fill+.vc_row-full-width
 .vacancy_table_wr .vacancy_table tbody td a:hover {
 	text-decoration: none;
 	color: #4ac8ed
-}
-
-.testimonials_carousel {
-	position: relative;
-	margin: 0 -20px
-}
-
-.testimonials_carousel.disable_carousel {
-	font-size: 0
-}
-
-.testimonials_carousel.disable_carousel .testimonial {
-	padding: 0 20px;
-	margin: 0 0 45px;
-	display: inline-block;
-	vertical-align: top;
-	font-size: 14px
-}
-
-.testimonials_carousel.disable_carousel.per_row_2 .testimonial {
-	width: 50%
-}
-
-.testimonials_carousel.disable_carousel.per_row_3 .testimonial {
-	width: 33%
-}
-
-.testimonials_carousel.disable_carousel.per_row_3 .testimonial .image {
-	float: none;
-	max-width: inherit;
-	margin: 0 0 20px
-}
-
-.testimonials_carousel .testimonial {
-	position: relative;
-	padding: 0 20px
-}
-
-.testimonials_carousel .testimonial .image {
-	float: left;
-	margin: 0 30px 0 0;
-	max-width: 255px
-}
-
-.testimonials_carousel .testimonial .image a {
-	position: relative;
-	display: block
-}
-
-.testimonials_carousel .testimonial .image a:before {
-	content: '';
-	position: absolute;
-	left: 0;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	background: rgba(0, 0, 0, .6);
-	-webkit-transition: all .3s ease;
-	-moz-transition: all .3s ease;
-	-ms-transition: all .3s ease;
-	-o-transition: all .3s ease;
-	transition: all .3s ease;
-	opacity: 0
-}
-
-.testimonials_carousel .testimonial .image a:after {
-	content: "\e920";
-	font-family: 'stm';
-	/*! speak: none; */
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-transition: all .3s ease;
-	-moz-transition: all .3s ease;
-	-ms-transition: all .3s ease;
-	-o-transition: all .3s ease;
-	transition: all .3s ease;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	margin: -15px 0 0 -15px;
-	color: #fff;
-	font-size: 30px;
-	opacity: 0
-}
-
-.testimonials_carousel .testimonial .image a:hover:before, .testimonials_carousel .testimonial .image a:hover:after {
-	opacity: 1
-}
-
-.testimonials_carousel .testimonial .image img {
-	display: block;
-	max-width: 100%;
-	height: auto
-}
-
-.testimonials_carousel .testimonial .info {
-	overflow: hidden
-}
-
-.testimonials_carousel .testimonial .info h4 {
-	color: #142440;
-	margin-bottom: 6px;
-	line-height: 22px;
-	padding-top: 0
-}
-
-.testimonials_carousel .testimonial .info h4 a {
-	color: #142440;
-	-webkit-transition: all .3s ease;
-	-moz-transition: all .3s ease;
-	-ms-transition: all .3s ease;
-	-o-transition: all .3s ease;
-	transition: all .3s ease
-}
-
-.testimonials_carousel .testimonial .info h4 a:hover {
-	color: #222;
-	text-decoration: none
-}
-
-.testimonials_carousel .testimonial .info .position, .testimonials_carousel .testimonial .info .company {
-	font-family: "Montserrat", sans-serif;
-	font-weight: 700;
-	color: #777;
-	line-height: 18px
-}
-
-.testimonials_carousel .testimonial .info .company {
-	margin: 0 0 24px
-}
-
-.testimonials_carousel .testimonial .info p {
-	color: #222;
-	line-height: 22px;
-	margin: 0
-}
-
-.testimonials_carousel.style_2 {
-	margin: 0 -15px
-}
-
-.testimonials_carousel.style_2 .item {
-	position: relative;
-	padding: 0 15px
-}
-
-.testimonials_carousel.style_2 .item .testimonial {
-	background: #f5f5f5;
-	position: relative;
-	padding: 28px 28px 27px;
-	margin: 0 0 21px
-}
-
-.testimonials_carousel.style_2 .item .testimonial:before {
-	content: "\e90b";
-	font-family: 'stm';
-	/*! speak: none; */
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	font-size: 48px;
-	color: #4ac8ed;
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	width: 60px;
-	height: 40px;
-	overflow: hidden
-}
-
-.testimonials_carousel.style_2 .item .testimonial:after {
-	content: '';
-	position: absolute;
-	left: 65px;
-	bottom: -30px;
-	width: 30px;
-	height: 33px;
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/themes/consulting/assets/css/layout_7/../../images/testimonials_before.png) no-repeat 0 0;
-	background-size: 15px 18px
-}
-
-.testimonials_carousel.style_2 .item .testimonial p {
-	margin: 0;
-	font-size: 14px;
-	line-height: 26px;
-	color: #222
-}
-
-.testimonials_carousel.style_2 .item .testimonial:before {
-	bottom: 0;
-	right: 1px
-}
-
-.testimonials_carousel.style_2 .item .testimonial:after {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/themes/consulting/assets/css/layout_7/../../images/testimonials_before_2.png)
-}
-
-.testimonials_carousel.style_2 .item .testimonial-info {
-	position: relative
-}
-
-.testimonials_carousel.style_2 .item .testimonial-info:after {
-	content: "";
-	display: table;
-	clear: both
-}
-
-.testimonials_carousel.style_2 .item .testimonial-info .testimonial-image {
-	max-width: 50px;
-	display: table-cell;
-	vertical-align: middle
-}
-
-.testimonials_carousel.style_2 .item .testimonial-info .testimonial-image img {
-	max-width: 100%;
-	height: auto;
-	overflow: hidden;
-	-webkit-border-radius: 100%;
-	-moz-border-radius: 100%;
-	-ms-border-radius: 100%;
-	border-radius: 100%
-}
-
-.testimonials_carousel.style_2 .item .testimonial-info .testimonial-text {
-	display: table-cell;
-	vertical-align: middle;
-	padding: 0 0 0 15px
-}
-
-.testimonials_carousel.style_2 .item .testimonial-info .testimonial-text .name {
-	color: #222;
-	line-height: 20px;
-	font-family: "Montserrat", sans-serif;
-	font-size: 14px;
-	font-weight: 700
-}
-
-.testimonials_carousel.style_2 .item .testimonial-info .testimonial-text .company {
-	font-size: 14px;
-	color: gray;
-	line-height: 20px;
-	font-style: italic
-}
-
-.testimonials_carousel.style_3 .testimonial_inner {
-	padding: 20px;
-	background: #fff
-}
-
-.testimonials_carousel.style_3 .testimonial_inner:after {
-	content: "";
-	display: table;
-	clear: both
-}
-
-.testimonials_carousel.style_3 .testimonial_inner .image {
-	margin-right: 20px;
-	width: 174px
-}
-
-.testimonials_carousel.style_3 .testimonial_inner p {
-	margin-bottom: 17px;
-	color: #222;
-	line-height: 22px
-}
-
-.testimonials_carousel.style_3 .testimonial_inner h6 {
-	padding-top: 0;
-	margin-bottom: 3px;
-	letter-spacing: 0
-}
-
-.testimonials_carousel.style_3 .testimonial_inner h6 a {
-	color: #142440;
-	-webkit-transition: color .3s ease;
-	-moz-transition: color .3s ease;
-	-ms-transition: color .3s ease;
-	-o-transition: color .3s ease;
-	transition: color .3s ease
-}
-
-.testimonials_carousel.style_3 .testimonial_inner h6 a:hover, .testimonials_carousel.style_3 .testimonial_inner h6 a:focus {
-	text-decoration: none
-}
-
-.testimonials_carousel.style_3 .testimonial_inner h6 a:hover {
-	color: #222
-}
-
-.testimonials_carousel.style_3 .testimonial_inner .position {
-	font-size: 13px;
-	letter-spacing: -.01em;
-	font-weight: 400;
-	color: #777
 }
 
 .vc_image_carousel_wr {
@@ -22403,7 +21445,6 @@ ul.comment-list .children>li:before {
 	position: absolute;
 	left: 66px;
 	top: -9px;
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/themes/consulting/assets/css/layout_7/../../images/comment_before.png) no-repeat 0 0;
 	width: 15px;
 	height: 9px
 }
@@ -24267,7 +23308,6 @@ body .vc_row.video_overlay.vc_parallax .vc_parallax-inner:before {
 	right: 0;
 	top: 0;
 	bottom: 0;
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/themes/consulting/assets/css/layout_7/../../images/video_overlay.png) repeat 50% 50%;
 	z-index: 10
 }
 
@@ -24505,7 +23545,7 @@ body.stm-demo-changed .stm-site-preloader.preloader-wrapper {
 
 .woocommerce ul.product_list_widget li dl dt, .woocommerce ul.product_list_widget li dl dd {
 	display: inline-block;
-	float: left;
+	/* float: left; */
 	margin-bottom: 1em
 }
 
@@ -27356,7 +26396,7 @@ form.woocommerce-checkout {
 	.woocommerce ul.products li.product {
 		float: left;
 		display: block;
-		vertical-align: top;
+		/* vertical-align: top; */
 		margin: -1px 0 0;
 		padding: 40px 20px;
 		position: relative;
@@ -28313,22 +27353,6 @@ form.woocommerce-checkout {
 	background-repeat: no-repeat
 }
 
-.customizer_colors #skin_default {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/themes/consulting/assets/css/../images/skin_default.jpg) no-repeat 0 0
-}
-
-.customizer_colors #skin_turquoise {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/themes/consulting/assets/css/../images/skin_turquoise.jpg) no-repeat 0 0
-}
-
-.customizer_colors #skin_dark_denim {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/themes/consulting/assets/css/../images/skin_dark_denim.jpg) no-repeat 0 0
-}
-
-.customizer_colors #skin_arctic_black {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/themes/consulting/assets/css/../images/skin_arctic_black.jpg) no-repeat 0 0
-}
-
 .customizer_colors span.active {
 	border-color: #fff !important
 }
@@ -28662,7 +27686,7 @@ body.stm-demo-changed #frontend_customizer, body.stm-demo-changed #wrapper {
 	box-sizing: border-box;
 	cursor: auto;
 	height: auto;
-	vertical-align: baseline;
+	/* vertical-align: baseline; */
 	line-height: normal
 }
 
@@ -29735,150 +28759,6 @@ body.stm-demo-changed #frontend_customizer, body.stm-demo-changed #wrapper {
 	background-repeat: no-repeat
 }
 
-.vc_pixel_icon-alert {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../vc/alert.png)
-}
-
-.vc_pixel_icon-info {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../vc/info.png)
-}
-
-.vc_pixel_icon-tick {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../vc/tick.png)
-}
-
-.vc_pixel_icon-explanation {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../vc/exclamation.png)
-}
-
-.vc_pixel_icon-address_book {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/address-book.png)
-}
-
-.vc_pixel_icon-alarm_clock {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/alarm-clock.png)
-}
-
-.vc_pixel_icon-anchor {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/anchor.png)
-}
-
-.vc_pixel_icon-application_image {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/application-image.png)
-}
-
-.vc_pixel_icon-arrow {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/arrow.png)
-}
-
-.vc_pixel_icon-asterisk {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/asterisk.png)
-}
-
-.vc_pixel_icon-hammer {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/auction-hammer.png)
-}
-
-.vc_pixel_icon-balloon {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/balloon.png)
-}
-
-.vc_pixel_icon-balloon_buzz {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/balloon-buzz.png)
-}
-
-.vc_pixel_icon-balloon_facebook {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/balloon-facebook.png)
-}
-
-.vc_pixel_icon-balloon_twitter {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/balloon-twitter.png)
-}
-
-.vc_pixel_icon-battery {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/battery-full.png)
-}
-
-.vc_pixel_icon-binocular {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/binocular.png)
-}
-
-.vc_pixel_icon-document_excel {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/blue-document-excel.png)
-}
-
-.vc_pixel_icon-document_image {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/blue-document-image.png)
-}
-
-.vc_pixel_icon-document_music {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/blue-document-music.png)
-}
-
-.vc_pixel_icon-document_office {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/blue-document-office.png)
-}
-
-.vc_pixel_icon-document_pdf {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/blue-document-pdf.png)
-}
-
-.vc_pixel_icon-document_powerpoint {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/blue-document-powerpoint.png)
-}
-
-.vc_pixel_icon-document_word {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/blue-document-word.png)
-}
-
-.vc_pixel_icon-bookmark {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/bookmark.png)
-}
-
-.vc_pixel_icon-camcorder {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/camcorder.png)
-}
-
-.vc_pixel_icon-camera {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/camera.png)
-}
-
-.vc_pixel_icon-chart {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/chart.png)
-}
-
-.vc_pixel_icon-chart_pie {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/chart-pie.png)
-}
-
-.vc_pixel_icon-clock {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/clock.png)
-}
-
-.vc_pixel_icon-play {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/control.png)
-}
-
-.vc_pixel_icon-fire {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/fire.png)
-}
-
-.vc_pixel_icon-heart {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/heart.png)
-}
-
-.vc_pixel_icon-mail {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/mail.png)
-}
-
-.vc_pixel_icon-shield {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/plus-shield.png)
-}
-
-.vc_pixel_icon-video {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/video.png)
-}
-
 .vc_txt_align_left {
 	text-align: left
 }
@@ -30857,134 +29737,6 @@ i.icon {
 
 .wpb_btn-mini i.icon {
 	display: none
-}
-
-.wpb_address_book i.icon, option.wpb_address_book {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/address-book.png) right center no-repeat
-}
-
-.wpb_alarm_clock i.icon, option.wpb_alarm_clock {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/alarm-clock.png) right center no-repeat
-}
-
-.wpb_anchor i.icon, option.wpb_anchor {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/anchor.png) right center no-repeat
-}
-
-.wpb_application_image i.icon, option.wpb_application_image {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/application-image.png) right center no-repeat
-}
-
-.wpb_arrow i.icon, option.wpb_arrow {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/arrow.png) right center no-repeat
-}
-
-.wpb_asterisk i.icon, option.wpb_asterisk {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/asterisk.png) right center no-repeat
-}
-
-.wpb_hammer i.icon, option.wpb_hammer {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/auction-hammer.png) right center no-repeat
-}
-
-.wpb_balloon i.icon, option.wpb_balloon {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/balloon.png) right center no-repeat
-}
-
-.wpb_balloon_buzz i.icon, option.wpb_balloon_buzz {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/balloon-buzz.png) right center no-repeat
-}
-
-.wpb_balloon_facebook i.icon, option.wpb_balloon_facebook {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/balloon-facebook.png) right center no-repeat
-}
-
-.wpb_balloon_twitter i.icon, option.wpb_balloon_twitter {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/balloon-twitter.png) right center no-repeat
-}
-
-.wpb_battery i.icon, option.wpb_battery {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/battery-full.png) right center no-repeat
-}
-
-.wpb_binocular i.icon, option.wpb_binocular {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/binocular.png) right center no-repeat
-}
-
-.wpb_document_excel i.icon, option.wpb_document_excel {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/blue-document-excel.png) right center no-repeat
-}
-
-.wpb_document_image i.icon, option.wpb_document_image {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/blue-document-image.png) right center no-repeat
-}
-
-.wpb_document_music i.icon, option.wpb_document_music {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/blue-document-music.png) right center no-repeat
-}
-
-.wpb_document_office i.icon, option.wpb_document_office {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/blue-document-office.png) right center no-repeat
-}
-
-.wpb_document_pdf i.icon, option.wpb_document_pdf {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/blue-document-pdf.png) right center no-repeat
-}
-
-.wpb_document_powerpoint i.icon, option.wpb_document_powerpoint {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/blue-document-powerpoint.png) right center no-repeat
-}
-
-.wpb_document_word i.icon, option.wpb_document_word {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/blue-document-word.png) right center no-repeat
-}
-
-.wpb_bookmark i.icon, option.wpb_bookmark {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/bookmark.png) right center no-repeat
-}
-
-.wpb_camcorder i.icon, option.wpb_camcorder {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/camcorder.png) right center no-repeat
-}
-
-.wpb_camera i.icon, option.wpb_camera {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/camera.png) right center no-repeat
-}
-
-.wpb_chart i.icon, option.wpb_chart {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/chart.png) right center no-repeat
-}
-
-.wpb_chart_pie i.icon, option.wpb_chart_pie {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/chart-pie.png) right center no-repeat
-}
-
-.wpb_clock i.icon, option.wpb_clock {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/clock.png) right center no-repeat
-}
-
-.wpb_play i.icon, option.wpb_play {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/control.png) right center no-repeat
-}
-
-.wpb_fire i.icon, option.wpb_fire {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/fire.png) right center no-repeat
-}
-
-.wpb_heart i.icon, option.wpb_heart {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/heart.png) right center no-repeat
-}
-
-.wpb_mail i.icon, option.wpb_mail {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/mail.png) right center no-repeat
-}
-
-.wpb_shield i.icon, option.wpb_shield {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/plus-shield.png) right center no-repeat
-}
-
-.wpb_video i.icon, option.wpb_video {
-	background: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/icons/video.png) right center no-repeat
 }
 
 .vc_column_container .vc_btn, .vc_column_container .wpb_button {
@@ -38954,15 +37706,10 @@ a.wpb_button_a {
 	display: block;
 	width: 16px;
 	height: 16px;
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/toggle_open.png);
 	background-repeat: no-repeat;
 	position: absolute;
 	right: .7em;
 	top: .7em
-}
-
-.wpb_accordion .wpb_accordion_wrapper .ui-state-active .ui-icon {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/toggle_close.png)
 }
 
 @media(max-width:480px) {
@@ -39192,7 +37939,6 @@ body ul.wpb_thumbnails-fluid li:after, body ul.wpb_thumbnails-fluid li:before {
 }
 
 .wpb_flickr_widget p.flickr_stream_wrap a {
-	background-image: url(http://cdn.consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../images/flickr.png);
 	background-repeat: no-repeat;
 	background-position: left center;
 	padding-left: 25px;
@@ -50324,8 +49070,6 @@ body ul.wpb_thumbnails-fluid li:after, body ul.wpb_thumbnails-fluid li:before {
 
 @font-face {
 	font-family: vc_grid_v1;
-	src: url(//consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../fonts/vc_grid/vc_grid_v1.eot?-9hbgac);
-	src: url(//consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../fonts/vc_grid/vc_grid_v1.eot?#iefix-9hbgac) format('embedded-opentype'), url(//consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../fonts/vc_grid/vc_grid_v1.woff?-9hbgac) format('woff'), url(//consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../fonts/vc_grid/vc_grid_v1.ttf?-9hbgac) format('truetype'), url(//consulting.stylemixthemes.com/six/wp-content/plugins/js_composer/assets/css/../fonts/vc_grid/vc_grid_v1.svg?-9hbgac#vc_grid_v1) format('svg');
 	font-weight: 400;
 	font-style: normal
 }
