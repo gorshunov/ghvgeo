@@ -1,0 +1,52 @@
+##
+# Конфигурация для веб-сервера Apache
+#
+# @copyright 2004, Михаил Красильников <mihalych@vsepofigu.ru>
+# @copyright 2007, Eresus Project, http://eresus.ru/
+
+# Отключаем автоматический индекс директорий (-Indexes)
+Options -Indexes +FollowSymLinks
+
+# Отключаем установку кодировки по умолчанию
+AddDefaultCharset Off
+
+ErrorDocument 404 /err404.html
+
+<IfModule mod_charset.c>
+	CharsetDisable On
+</IfModule>
+
+#
+# Конфигурация трансформации URL
+#
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+
+	### БЕЗОПАСНОСТЬ ###
+
+	# Запрещаем запуск потенциально опасных файлов из недоверенных директорий
+	RewriteRule ^(data|style)/((.*/)?\.[^/]$|.*\.(ph(p[2-6]?|tml)|pl)$) - [forbidden]
+
+	# Проксируем все запросы к сторонним расширениям через их коннекторы
+	RewriteRule ^ext-3rd/.* index.php [last]
+
+	### ДРУГИЕ ПЕРЕАДРЕСОВКИ ###
+
+	# Включаем gzip-сжатие CSS и JavaScript
+	RewriteRule (.*\.css)$ core/gziph.php?file=$1&type=text/css [last]
+	RewriteRule (.*\.js)$ core/gziph.php?file=$1&type=text/javascript [last]
+
+	# Отключаем перехват запросов в следующих директориях
+	RewriteRule ^(core/js|admin/themes|admin/logos|ext|data|style)/ - [last]
+
+	# Отключаем перехват запросов к следующим файлам
+	RewriteRule ^(robots.txt|favicon.[^\.]+|core/gziph.php.*)$ - [last]
+
+	# Все остальные запросы должны перехватываться запускающим скриптом
+	# RewriteRule .* index.php
+</IfModule>
+
+# Если mod_rewrite не сработал (модуль не подключен, нет нужного файла), то...
+<IfModule mod_dir.c>
+	DirectoryIndex index.htm
+</IfModule>
