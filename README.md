@@ -1,2 +1,2 @@
 # ghvgeo
-Тестовая версия сайта gazpromgeo.ru
+Тестовая версия сайта geo.texxcore.com
